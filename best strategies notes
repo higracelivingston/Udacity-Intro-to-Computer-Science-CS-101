@@ -1,0 +1,10 @@
+Best strategies notes
+
+1. write stub daysinMonth(year, month) that always returns 30
+2. modify nextDay(year, month, day) to use daysinMonth(year, month) that always returns 30
+3. test nextDay(year, month, day) to use stub daysinMonth(year, month) that always returns 30
+4. modify daysinMonth (year, month) to be correct except for in Leap Years
+5. test again (as in step 3) nextDay(year, month, day) to use stub daysinMonth(year, month) that always returns 30
+6. write isLeapYear(year)
+7. test isLeapYear(year)
+8. test daysBetweeenDates(...) for all test cases
